@@ -30,10 +30,6 @@ int main()
 		}
 		cout << a / b << endl;
 		break;
-
-	case '%':
-		cout << a % b << endl;
-		break;
 	}
 
 	return 0;
