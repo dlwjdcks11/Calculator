@@ -23,6 +23,11 @@ int main()
 		break;
 
 	case '/':
+		if (b == 0)
+		{
+			cout << "You cannot divide by zero" << endl;
+			break;
+		}
 		cout << a / b << endl;
 		break;
 
